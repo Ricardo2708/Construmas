@@ -6,17 +6,24 @@
     content="Contrumas S.A De C.V Empresa de construccion ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WCZXTFH');</script>
+    <!-- End Google Tag Manager -->
     <title>Construmas S.A DE C.V</title>
-    <link rel="icon" href="/build/img/icon.png">
-    <link rel="stylesheet" href="/build/css/app.css">
-    <link rel="stylesheet" href="/build/css/animate.css">
+    <link rel="icon" href="build/img/icon.png">
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="build/css/animate.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="/build/css/lightbox.css">
+    <link rel="stylesheet" href="build/css/lightbox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script> 
-    <script src="/build/js/bundle.min.js"></script>
+    <script src="build/js/bundle.min.js"></script>
     <script>
         new WOW().init();
     </script>
@@ -42,18 +49,18 @@
     <header class="header nosotros">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="/index.php">
-                    <img src="/build/img/logo.png" alt="logo">
+                <a href="index.php">
+                    <img src="build/img/logo.png" alt="logo">
                 </a>
 
                 <div class="mobile-menu">
-                    <img src="/build/img/barras.svg" alt="menu" loading="lazy">
+                    <img src="build/img/barras.svg" alt="menu" loading="lazy">
                 </div>
                 <nav class="navegacion">
-                    <a href="/nosotros.php" class="wow fadeInDown" data-wow-delay="0.2s">Nosotros</a>
-                    <a href="/anuncios.php" class="wow fadeInDown" data-wow-delay="0.4s">Productos</a>
-                    <a href="/blog.php" class="wow fadeInDown" data-wow-delay="0.6s">Proyectos</a>
-                    <a href="/contacto.php" class="wow fadeInDown" data-wow-delay="0.8s">Contacto</a>
+                    <a href="nosotros.php" class="wow fadeInDown" data-wow-delay="0.2s">Nosotros</a>
+                    <a href="anuncios.php" class="wow fadeInDown" data-wow-delay="0.4s">Productos</a>
+                    <a href="blog.php" class="wow fadeInDown" data-wow-delay="0.6s">Proyectos</a>
+                    <a href="contacto.php" class="wow fadeInDown" data-wow-delay="0.8s">Contacto</a>
                 </nav>
             </div>
             <!-- cierre de la barra -->
