@@ -57,7 +57,7 @@
                     <a href="#producto" class="boton boton-rojo-block wow bounceIn">Ver Productos</a>
                 </div>
                 <picture class="wow fadeInUp parallax-container" >
-                    <img src="build/img/inicio2.webp" alt="anuncio" loading="lazy" class="parallax">
+                    <img src="build/img/titulo.webp" alt="anuncio" loading="lazy" class="parallax">
                 </picture>
                 
             </div>
