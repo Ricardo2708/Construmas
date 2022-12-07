@@ -90,9 +90,9 @@
         <div class="contenedor-contacto">
             <div class="wow fadeInDown">
                 <picture>
-                    <source srcset="build/img/persona1.webp" type="image/webp">
-                    <source srcset="build/img/persona1.jpg" type="image/jpeg">
-                    <img src="build/img/persona1.jpg" alt="nosotros" loading="lazy">
+                    <source srcset="build/img/contacto2.webp" type="image/webp">
+                    <source srcset="build/img/contacto2.jpg" type="image/jpeg">
+                    <img src="build/img/contacto2.jpg" alt="nosotros" loading="lazy">
                 </picture>
             </div>
 

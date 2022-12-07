@@ -34,17 +34,7 @@
 </head>
 <body>
     <div id="contenedor_carga">
-        <div class="sk-cube-grid">
-            <div class="sk-cube sk-cube1"></div>
-            <div class="sk-cube sk-cube2"></div>
-            <div class="sk-cube sk-cube3"></div>
-            <div class="sk-cube sk-cube4"></div>
-            <div class="sk-cube sk-cube5"></div>
-            <div class="sk-cube sk-cube6"></div>
-            <div class="sk-cube sk-cube7"></div>
-            <div class="sk-cube sk-cube8"></div>
-            <div class="sk-cube sk-cube9"></div>
-        </div>
+        <div id="carga"></div>
     </div>
     <header class="header nosotros">
         <div class="contenedor contenido-header">
@@ -67,6 +57,50 @@
         </div>
     </header>
 
+<section class="share" id="share" data-aos="fade-right" data-aos-duration="1000"> 
+    <div class="contenedor-share">
+        <a href="https://es-la.facebook.com/ConstrumasES/" target="_blank" >
+            <div class="bar-icono facebook-logo">
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+        </a>
+
+        <a href="https://twitter.com/construmas_sv" target="_blank">
+            <div class="bar-icono twitter-logo">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </a>
+
+        <a href="#" >
+            <div class="bar-icono email-logo">
+                <i class="fa-solid fa-at"></i>
+            </div>
+        </a>
+        <a href="https://www.linkedin.com/company/construmas-sa.-de-cv./about/" target="_blank">
+            <div class="bar-icono facebook-logo">
+                
+                <i class="fa-brands fa-linkedin-in"></i>
+                
+            </div>
+        </a>
+
+    </div>
+</section>
+
 <script>
   AOS.init();
 </script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/638f70c5b0d6371309d2ed98/1gjk511fh';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->

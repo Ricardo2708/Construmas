@@ -27,17 +27,7 @@
 </head>
 <body>
     <div id="contenedor_carga">
-        <div class="sk-cube-grid">
-            <div class="sk-cube sk-cube1"></div>
-            <div class="sk-cube sk-cube2"></div>
-            <div class="sk-cube sk-cube3"></div>
-            <div class="sk-cube sk-cube4"></div>
-            <div class="sk-cube sk-cube5"></div>
-            <div class="sk-cube sk-cube6"></div>
-            <div class="sk-cube sk-cube7"></div>
-            <div class="sk-cube sk-cube8"></div>
-            <div class="sk-cube sk-cube9"></div>
-        </div>
+        <div id="carga"></div>
     </div>
     <header class="header inicio">
         <div class="contenedor contenido-header">
@@ -60,19 +50,55 @@
 
             <div class="home">
                 <div class="texto-home">
-                    <h1 class="wow fadeInDown texto1"> <span>Más</span> Calidad | <span>Más</span> Rendimiento | <span>Más</span> Economia</h1>
+                    <h1 class="wow fadeInDown texto1"> <span>Más</span> Calidad | <span>Más</span> Rendimiento | <span>Más</span> Economía</h1>
                     <h1 class="wow fadeInDown texto2">Suministros Para La Construccion </h1>
                     <p class="wow fadeInDown texto1">Los Mejores Materiales De Construcción Para Un Resultado Perfecto</p>
                     <p class="wow fadeInDown texto2">Los Mejores Materiales De Construcción</p>
                     <a href="#producto" class="boton boton-rojo-block wow bounceIn">Ver Productos</a>
                 </div>
                 <picture class="wow fadeInUp parallax-container" >
-                    <img src="build/img/titulo.webp" alt="anuncio" loading="lazy" class="parallax">
+                    <img src="build/img/inicio2.webp" alt="anuncio" loading="lazy" class="parallax">
                 </picture>
                 
             </div>
+
+            <a class="contenedor-bajar" href="#bajar">
+                <i class="fa-sharp fa-solid fa-arrow-down bajar"></i>
+            </a>
         </div>
     </header>
+
+<section class="share" id="share" data-aos="fade-right" data-aos-duration="1000"> 
+    <div class="contenedor-share">
+        <a href="https://es-la.facebook.com/ConstrumasES/" target="_blank" >
+            <div class="bar-icono facebook-logo">
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+        </a>
+
+        <a href="https://twitter.com/construmas_sv" target="_blank">
+            <div class="bar-icono twitter-logo">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </a>
+
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfpKPnstvCtCbmpnnPXvTjbTTFNjXgSTxxTmdTmWLkzJCsWVSvPwMwTBFzptvkXQBLkPGq" target="_blank">
+            <div class="bar-icono email-logo">
+            <i class="fa-brands fa-google"></i>
+            </div>
+        </a>
+        <a href="https://www.linkedin.com/company/construmas-sa.-de-cv./about/" target="_blank">
+            <div class="bar-icono facebook-logo">
+                
+                <i class="fa-brands fa-linkedin-in"></i>
+                
+            </div>
+        </a>
+
+    </div>
+</section>
+
+
 
 <script>
   AOS.init();

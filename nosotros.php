@@ -8,7 +8,7 @@
     <main class="contenedor seccion wow fadeInDown">
         <h2>Sobre Nosotros</h2>
         <p>
-            Construmas S.A De C.V
+            Construmas S.A DE C.V
         </p>
 
         <div class="contenido-nosotros">
@@ -84,7 +84,7 @@
                     nos dedicamos a la venta de repello para paredes y pegamento para piso ceramico
                     
                 </blockquote>
-                <p>Construmas S.A</p>
+                <p>Construmas S.A DE C.V</p>
             </div>
         </section>
     </div>

@@ -7,7 +7,7 @@
 
 
     
-    <main class="contenedor seccion wow fadeInDown">
+    <main class="contenedor seccion wow fadeInDown" id="bajar">
 
         <div class="title-iconos">
             <h2 class="title-nosotros">Nosotros Ofrecemos</h2>
@@ -149,7 +149,7 @@
                         nos dedicamos a la venta de repello para paredes y pegamento para piso ceramico
                         
                     </blockquote>
-                    <p>Construmas S.A De C.V</p>
+                    <p>Construmas S.A DE C.V</p>
                 </div>
             </section>
         </div>
@@ -244,7 +244,19 @@
 
 
     
-
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/638f70c5b0d6371309d2ed98/1gjk511fh';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 
     
 </body>

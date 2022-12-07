@@ -59,4 +59,4 @@ function sliderAuto(slider, miliseconds) {
   slide();
 }
   
-sliderAuto(glider, 5000)
+sliderAuto(glider, 10000)

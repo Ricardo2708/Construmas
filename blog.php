@@ -42,11 +42,6 @@
                             <a href="build/img/casa2.webp" data-lightbox="roadtrip" class="image-4"></a>
                             <p>Acropoli Sonsonate</p>
                         </div>
-
-                        <div class="carousel__elemento imagen-galeria" data-aos="fade-right">
-                            <a href="build/img/casa12.webp" data-lightbox="roadtrip" class="image-6"></a>
-                            <p>Ecoterra Maquilishuat</p>
-                        </div>
                     </div>
                 </div>
 

@@ -12,32 +12,8 @@
     </div>
 
 
-    <p class="copyrigth"> Todos Los Derechos Reservados | Construmas S.A De C.V &copy;</p>
-    <div class="social-footer">
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/ConstrumasES/" target="_blank">
-                <i class="fa-brands fa-facebook"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://api.whatsapp.com/send?phone=60447112" target="_blank">
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/pintamas_sv/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/construmas_sv" target="_blank">
-                <i class="fa-brands fa-twitter"></i>
-                </a>
-            </li>
-        </ul>
-
-    </div>
+    <p class="copyrigth"> Todos Los Derechos Reservados | Construmas S.A DE C.V &copy;</p>
+    <p class="slogan">Más Calidad | Más Rendimiento | Más Economía</p>
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YT82CWTPX1"></script>
