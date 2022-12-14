@@ -6,13 +6,6 @@
     content="Contrumas S.A De C.V Empresa de construccion ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-WCZXTFH');</script>
-    <!-- End Google Tag Manager -->
     <title>Construmas S.A DE C.V</title>
     <link rel="icon" href="build/img/icon.png">
     <link rel="stylesheet" href="build/css/app.css">
@@ -57,7 +50,7 @@
         </div>
     </header>
 
-<section class="share" id="share" data-aos="fade-right" data-aos-duration="1000"> 
+    <section class="share" id="share" data-aos="fade-right" data-aos-duration="1000"> 
     <div class="contenedor-share">
         <a href="https://es-la.facebook.com/ConstrumasES/" target="_blank" >
             <div class="bar-icono facebook-logo">
@@ -71,9 +64,9 @@
             </div>
         </a>
 
-        <a href="#" >
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfpKPnstvCtCbmpnnPXvTjbTTFNjXgSTxxTmdTmWLkzJCsWVSvPwMwTBFzptvkXQBLkPGq" target="_blank">
             <div class="bar-icono email-logo">
-                <i class="fa-solid fa-at"></i>
+            <i class="fa-brands fa-google"></i>
             </div>
         </a>
         <a href="https://www.linkedin.com/company/construmas-sa.-de-cv./about/" target="_blank">

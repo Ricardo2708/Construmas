@@ -68,7 +68,7 @@
 
             <div class="texto-nosotros">
                 <blockquote>
-                    ¿Que Productos Usamos?
+                    <h2>¿Que Productos Usamos?</h2>
                 </blockquote>
 
                 <p>

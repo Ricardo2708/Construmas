@@ -13,16 +13,8 @@
 
 
     <p class="copyrigth"> Todos Los Derechos Reservados | Construmas S.A DE C.V &copy;</p>
-    <p class="slogan">Más Calidad | Más Rendimiento | Más Economía</p>
+    <p class="slogan">Los Mejores Materiales De Construcción </p>
     
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YT82CWTPX1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-YT82CWTPX1');
-    </script>
+
 
 </footer>
