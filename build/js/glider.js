@@ -60,3 +60,4 @@ function sliderAuto(slider, miliseconds) {
 }
   
 sliderAuto(glider, 10000)
+

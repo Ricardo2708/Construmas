@@ -30,31 +30,38 @@
         <div id="carga"></div>
     </div>
     <header class="header inicio">
-        <div class="contenedor contenido-header">
-            <div class="barra">
-                <a href="index.php">
-                    <img src="build/img/logo.webp" alt="logo">
-                </a>
 
-                <div class="mobile-menu">
-                    <img src="build/img/barras.svg" alt="menu" loading="lazy">
-                </div>
-                <nav class="navegacion">
-                    <a href="nosotros.php" class="wow fadeInDown" data-wow-delay="0.2s">Nosotros</a>
-                    <a href="anuncios.php" class="wow fadeInDown" data-wow-delay="0.4s">Productos</a>
-                    <a href="blog.php" class="wow fadeInDown" data-wow-delay="0.6s">Proyectos</a>
-                    <a href="contacto.php" class="wow fadeInDown" data-wow-delay="0.8s">Contacto</a>
-                </nav>
+        <div class="barra">
+            <a href="index.php">
+                <img src="build/img/logo3.webp" alt="logo">
+            </a>
+
+            <div class="mobile-menu">
+                <img src="build/img/barras.svg" alt="menu" loading="lazy">
             </div>
+            
+            <nav class="navegacion">
+                <a href="index.php" class="wow fadeInDown enlace" data-wow-delay="0.4s">Inicio</a>
+                <a href="nosotros.php" class="wow fadeInDown enlace" data-wow-delay="0.2s">Nosotros</a>
+                <a href="blog.php" class="wow fadeInDown enlace" data-wow-delay="0.6s">Proyectos</a>
+                <a href="contacto.php" class="wow fadeInDown enlace" data-wow-delay="0.8s">Contacto</a>
+                
+            </nav>
+           
+        </div>
+        <div class="contenedor contenido-header">
+            
             <!-- cierre de la barra -->
 
             <div class="home">
                 <div class="texto-home">
-                    <h1 class="wow fadeInDown texto1"> <span>Más</span> Calidad | <span>Más</span> Rendimiento | <span>Más</span> Economía</h1>
+                    <h1 class="wow fadeInDown texto1 " data-aos="fade-up"> <span>Más</span> Calidad | <span>Más</span> Rendimiento | <span>Más</span> Economía</h1>
                     <h1 class="wow fadeInDown texto2">Suministros Para La Construccion </h1>
                     <p class="wow fadeInDown texto1">Los Mejores Materiales De Construcción Para Un Resultado Perfecto</p>
                     <p class="wow fadeInDown texto2">Los Mejores Materiales De Construcción</p>
-                    <a href="#producto" class="boton boton-rojo-block wow bounceIn">Ver Productos</a>
+                    <div>
+                        <a href="#producto" class="boton boton-rojo-block wow bounceIn">Ver Productos</a>
+                    </div>
                 </div>
                 <picture class="wow fadeInUp parallax-container" >
                     <img src="build/img/titulo.webp" alt="anuncio" loading="lazy" class="parallax">
@@ -62,15 +69,16 @@
                 
             </div>
 
-            <a class="contenedor-bajar" href="#bajar">
+            <a class="contenedor-bajar" href="#bajar" aria-label="About">
                 <i class="fa-sharp fa-solid fa-arrow-down bajar"></i>
             </a>
+
         </div>
     </header>
 
 <section class="share" id="share" data-aos="fade-right" data-aos-duration="1000"> 
     <div class="contenedor-share">
-        <a href="https://es-la.facebook.com/ConstrumasES/" target="_blank" >
+        <a href="https://www.facebook.com/people/Construmas-El-Salvador/100089960851012/" target="_blank" >
             <div class="bar-icono facebook-logo">
                 <i class="fa-brands fa-facebook-f"></i>
             </div>
@@ -102,4 +110,14 @@
 
 <script>
   AOS.init();
+
+    const ruta = window.location.pathname
+    const clase = document.querySelector('.enlace')
+    if(ruta == '/index.php' || ruta == '/'){
+        
+        clase.classList.add('nombreclase');
+    }
+    else if(ruta == '/nosotros.php'){
+        clase.classList.add('nombreclase');
+    }   
 </script>

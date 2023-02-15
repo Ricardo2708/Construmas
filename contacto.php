@@ -7,6 +7,7 @@
     $email = '';
     $phone = '';
     $msg = '';
+    $newsletter = '';
     
     
 
@@ -16,20 +17,23 @@
         $email = $_POST['email'];
         $phone = $_POST['phone'];
         $msg = $_POST['msg'];
+        $newsletter = $_POST['news'];
+
         
         
         if(empty($_POST['name'])){
-            $errores[] = 'Debes Ingresar Tu Nombre';
+            $errores[] = 'Ingresa Tu Nombre';
         }
         if(empty($_POST['email'])){
-            $errores[] = 'Debes Ingresar Tu Correo Electronico';
+            $errores[] = 'Ingresa Tu Correo Electronico';
         }
         if(empty($_POST['phone'])){
-            $errores[] = 'Debes A単adir Un Numero De Telefono';
+            $errores[] = 'INgresa Un Numero De Telefono';
         }
         if(strlen($msg) < 10){
-            $errores[] = 'Debes A単adir Un Mensaje Mas Descriptivo';
+            $errores[] = 'Ingresa Un Mensaje Mas Descriptivo';
         }
+        
         
         else{
             if(isset($_POST['g-recaptcha-response'])){
@@ -38,7 +42,11 @@
                 $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']);
                 $g_response = json_decode($response);
                 if ($g_response->success === true){
-                    
+                    if($newsletter == 'on'){
+                        require'build/php/db/conexion.php';
+                        insertar($name, $email, $phone);
+                        
+                    }
 
                     
                     $title = "Solicitud De Cliente";
@@ -90,7 +98,7 @@
         <div class="contenedor-contacto">
             <div class="wow fadeInDown">
                 <picture>
-                    <source srcset="build/img/contacto2.webp" type="image/webp">
+                    <source srcset="https://img.freepik.com/foto-gratis/retrato-mujer-trabajadora-servicio-al-cliente_144627-37951.jpg?w=900&t=st=1676410024~exp=1676410624~hmac=d52d51ed7ef3889d3cdb1fa0da434b715a6cc09e06bb67ae46921b6b2c0de4c6" type="image/webp">
                     <source srcset="build/img/contacto2.jpg" type="image/jpeg">
                     <img src="build/img/contacto2.jpg" alt="nosotros" loading="lazy">
                 </picture>
@@ -98,7 +106,7 @@
 
             <form method="post" class="formulario" action="/contacto.php">
                 <fieldset class="wow fadeInUp">
-                    <legend>Llena El Formulario: </legend>
+                    <legend>Rellena El Formulario: </legend>
 
                     <?php 
                         $numero = count($errores); 
@@ -107,14 +115,14 @@
                             <script>
                                 swal("Error", "Revisa Los Campos Del Formulario", "error");
                             </script>
-                            <div class="alerta error">
+                            <div class="alerta error" data-aos="fade-up">
                                 Tiene +3 Errores En Su Formulario
                             </div> 
                             <?php
                         }
                         else{
                             foreach($errores as $error):?>
-                            <div class="alerta error">
+                            <div class="alerta error" data-aos="fade-up">
                                 <?php echo $error;?>
                             </div> 
 
@@ -126,19 +134,23 @@
                     
 
                     <label for="nombre">Nombre :</label>
-                    <input type="text" placeholder="Name" id="name" name="name" value="<?php echo $name; ?>">
+                    <input type="text" placeholder="Name" id="name" name="name" require value="<?php echo $name; ?>">
 
                     <label for="email">Email :</label>
-                    <input type="email" placeholder="example@example.com" id="email" name="email" value="<?php echo $email; ?>">
+                    <input type="email" placeholder="example@example.com" require id="email" name="email" value="<?php echo $email; ?>">
 
                     <label for="telefono">Telefono :</label>
-                    <input type="tel" placeholder="0000-0000" id="phone" name="phone" value="<?php echo $phone; ?>">
+                    <input type="tel" placeholder="0000-0000" id="phone" require name="phone" value="<?php echo $phone; ?>">
                     
                     
 
                     <label for="producto">Mensaje :</label>
                     <textarea id="msg" cols="30" rows="5" name="msg"><?php echo htmlspecialchars($msg); ?></textarea>
-
+                    <div class="check-newsletter">
+                        <input type="checkbox" name="news" id="news">
+                        <p>Suscribirse a nuestra newslatter para noticias y mas</p>
+                    </div>
+                    
                 </fieldset>
 
                 <div class="casilla">

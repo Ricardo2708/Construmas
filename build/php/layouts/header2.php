@@ -29,24 +29,24 @@
     <div id="contenedor_carga">
         <div id="carga"></div>
     </div>
-    <header class="header nosotros">
-        <div class="contenedor contenido-header">
-            <div class="barra">
-                <a href="index.php">
-                    <img src="build/img/logo.png" alt="logo">
-                </a>
+    <header class="header header2 nosotros">
+        <div class="barra">
+            <a href="index.php">
+                <img src="build/img/logo3.webp" alt="logo">
+            </a>
 
-                <div class="mobile-menu">
-                    <img src="build/img/barras.svg" alt="menu" loading="lazy">
-                </div>
-                <nav class="navegacion">
-                    <a href="nosotros.php" class="wow fadeInDown" data-wow-delay="0.2s">Nosotros</a>
-                    <a href="anuncios.php" class="wow fadeInDown" data-wow-delay="0.4s">Productos</a>
-                    <a href="blog.php" class="wow fadeInDown" data-wow-delay="0.6s">Proyectos</a>
-                    <a href="contacto.php" class="wow fadeInDown" data-wow-delay="0.8s">Contacto</a>
-                </nav>
+            <div class="mobile-menu">
+                <img src="build/img/barras.svg" alt="menu" loading="lazy">
             </div>
-            <!-- cierre de la barra -->
+            
+            <nav class="navegacion">
+                <a href="index.php" class="wow fadeInDown enlace1" data-wow-delay="0.4s">Inicio</a>
+                <a href="nosotros.php" class="wow fadeInDown enlace2" data-wow-delay="0.2s">Nosotros</a>
+                <a href="blog.php" class="wow fadeInDown enlace3" data-wow-delay="0.6s">Proyectos</a>
+                <a href="contacto.php" class="wow fadeInDown enlace4" data-wow-delay="0.8s">Contacto</a>
+                
+            </nav>
+           
         </div>
     </header>
 
@@ -82,18 +82,22 @@
 
 <script>
   AOS.init();
+    const ruta = window.location.pathname
+    if(ruta == '/index.php'){
+        const clase = document.querySelector('.enlace1')
+        clase.classList.add('nombreclase');
+    }
+    else if(ruta == '/nosotros.php'){
+        const clase = document.querySelector('.enlace2')
+        clase.classList.add('nombreclase');
+    }   
+    else if(ruta == '/blog.php'){
+        const clase = document.querySelector('.enlace3')
+        clase.classList.add('nombreclase');
+    } 
+    else if(ruta == '/contacto.php'){
+        const clase = document.querySelector('.enlace4')
+        clase.classList.add('nombreclase');
+    } 
 </script>
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/638f70c5b0d6371309d2ed98/1gjk511fh';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->

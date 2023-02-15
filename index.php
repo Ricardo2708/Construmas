@@ -5,46 +5,57 @@
 
 ?>
 
+    <div id="bajar" class="contenedor seccion seccion-inferior" >
+        <section class="blog">
+            <h3>Mision Y Vision</h3>
+            <div class="blog-grid">
+                <article class="entrada-blog">
+                    <div class="imagen">
+                        <picture>
+                            <img src="build/img/vision1.webp" alt="entrada-blog" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="texto-entrada">
 
-    
-    <main class="contenedor seccion wow fadeInDown" id="bajar">
+                        <h4>Nuestra Mision</h4>
+                        <p>
+                            Estara Disponible En Breve.....
+                        </p>
+                    </div>
 
-        <div class="title-iconos">
-            <h2 class="title-nosotros">Nosotros Ofrecemos</h2>
-            <p>
-                En Cada Producto:
-            </p>
-        </div>
+                </article>
 
-        <div class="iconos-nosotros">
-            <div class="icono">
-                <img src="build/img/icono1.svg" alt="icono1" loading="lazy" class="wow swing" data-wow-delay="0s">
-                <h3>Seguridad</h3>
-                <p>
-                    En nuestros productos ofrecemos seguridad
-                    cumpliendo normativas tecnicas 
-                </p>
+                <article class="entrada-blog">
+                    <div class="imagen">
+                        <picture>
+                            <img src="build/img/vision1.webp" alt="entrada-blog" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="texto-entrada">
+
+                        <h4>Nuestra Vision</h4>
+                        <p>
+                            Estara Disponible En Breve.....
+                        </p>
+
+                    </div>
+
+                </article>
             </div>
-            <div class="icono">
-                <img src="build/img/icono2.svg" alt="icono2" loading="lazy" class="wow bounceIn" data-wow-delay="0.5s">
-                <h3>Rentabilidad</h3>
-                <p>
-                    Relacion, calidad, precio es nuestro enfoque en cada 
-                    uno de nuestros productos
-                </p>
-            </div>
-            <div class="icono">
-                <img src="build/img/icono3.svg" alt="icono3" loading="lazy" class="wow rotateIn" data-wow-delay="1s">
-                <h3>Durabilidad</h3>
-                <p>
-                    Los productos estan fabricados para tener una alta resistencia y
-                    durabilidad 
-                </p>
-            </div>
-        </div>
-    </main>
+        </section>
 
-    <hr class="contenedor">
+        <section class="testimoniales">
+            <h3>Nuestra Empresa</h3>
+            <div class="testimonial">
+                <blockquote>
+                    Somos una empresa joven y competitiva fundada en junio del año 2014, que busca ser líder en el mercado de la construcción.
+                    nos dedicamos a la venta de repello para paredes y pegamento para piso ceramico
+                    
+                </blockquote>
+                <p>Construmas S.A DE C.V</p>
+            </div>
+        </section>
+    </div>
 
     <section class="seccion contenedor" data-aos="fade-down" >
         <h2>Nuestros Productos</h2>
@@ -98,65 +109,11 @@
             </div>
             
         </div>
-        <div class="ver-todas">
-            <a href="anuncios.php" class="boton-verde"> Ver Todos Los Productos</a>
-        </div>
 
-        <div class="contenedor seccion seccion-inferior wow fadeInDown">
-            <section class="blog">
-                <h3>Mision Y Vision</h3>
-
-                <div class="seccion-blog">
-                    <article class="entrada-blog">
-                        <div class="imagen" data-aos="fade-right">
-                            <picture>
-                                <img src="build/img/vision1.webp" alt="entrada-blog" loading="lazy">
-                            </picture>
-                        </div>
-                        <div class="texto-entrada">
-                            <h4>Nuestra Mision</h4>
-                            <p>
-                                Estara Disponible En Breve.....
-                            </p>
-                        </div>
-
-                    </article>
-
-                    <article class="entrada-blog">
-                        <div class="imagen" data-aos="fade-right" data-aos-duration="1000">
-                            <picture>
-                                <img src="build/img/vision1.webp" alt="entrada-blog" loading="lazy">
-                            </picture>
-                        </div>
-                        <div class="texto-entrada">
-
-                            <h4>Nuestra Vision</h4>
-                            <p>
-                                Estara Disponible En Breve.....
-                            </p>
-
-                        </div>
-
-                    </article>
-                </div>
-            </section>
-
-            <section class="testimoniales">
-                <h3>Nuestra Empresa</h3>
-                <div class="testimonial">
-                    <blockquote>
-                        Somos una empresa joven y competitiva fundada en junio del año 2014, que busca ser líder en el mercado de la construcción.
-                        nos dedicamos a la venta de repello para paredes y pegamento para piso ceramico
-                        
-                    </blockquote>
-                    <p>Construmas S.A DE C.V</p>
-                </div>
-            </section>
-        </div>
+        
 
         
     </section>
-
 
     <section class="imagen-contacto imagen-sombra wow fadeInDown">
         <div class="texto-contacto" data-aos="fade-down">
@@ -170,9 +127,6 @@
         </div>
         
     </section>
-
-
-
 
     <section class=" imagen-direccion contenedor wow fadeInDown">
         <div class="contenido-direccion">
@@ -242,21 +196,6 @@
     ?>
     <script src="build/js/bundle.min.js"></script>
 
-
-    
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/638f70c5b0d6371309d2ed98/1gjk511fh';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
 
     
 </body>

@@ -47,7 +47,7 @@
 
                 <div class="contenido-anuncio">
                     <h3>Catalogo - Construmas</h3>
-                    <p>Estucos Y Pegamentos</p>
+                    <p>Estucos, Pegamentos, Porcelanas</p>
                     
                     <form method="post" id="materiales">
                         <label for="opciones">Seleccione El Producto :</label>

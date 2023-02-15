@@ -42,38 +42,40 @@
         <section class="blog">
             <h3>Mision Y Vision</h3>
 
-            <article class="entrada-blog">
-                <div class="imagen">
-                    <picture>
-                        <img src="build/img/vision1.webp" alt="entrada-blog" loading="lazy">
-                    </picture>
-                </div>
-                <div class="texto-entrada">
+            <div class="blog-grid">
+                <article class="entrada-blog">
+                    <div class="imagen">
+                        <picture>
+                            <img src="build/img/vision1.webp" alt="entrada-blog" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="texto-entrada">
 
-                    <h4>Nuestra Mision</h4>
-                    <p>
-                        Estara Disponible En Breve.....
-                    </p>
-                </div>
+                        <h4>Nuestra Mision</h4>
+                        <p>
+                            Estara Disponible En Breve.....
+                        </p>
+                    </div>
 
-            </article>
+                </article>
 
-            <article class="entrada-blog">
-                <div class="imagen">
-                    <picture>
-                        <img src="build/img/vision1.webp" alt="entrada-blog" loading="lazy">
-                    </picture>
-                </div>
-                <div class="texto-entrada">
+                <article class="entrada-blog">
+                    <div class="imagen">
+                        <picture>
+                            <img src="build/img/vision1.webp" alt="entrada-blog" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="texto-entrada">
 
-                    <h4>Nuestra Vision</h4>
-                    <p>
-                        Estara Disponible En Breve.....
-                    </p>
+                        <h4>Nuestra Vision</h4>
+                        <p>
+                            Estara Disponible En Breve.....
+                        </p>
 
-                </div>
+                    </div>
 
-            </article>
+                </article>
+            </div>
         </section>
 
         <section class="testimoniales">

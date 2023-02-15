@@ -82,7 +82,7 @@
                     En los proyectos usamos nuestra pintura de maxima calidad PintaMas la cual dio un
                     excelente recubrimiento y una mejor estetica
                 </p>
-                <a href="anuncio.php" class="boton-verde-block wow flipInX" data-wow-delay="0.2s">Ver Catalogo</a>
+                <a href="anuncio.php" class="boton-rojo-block wow flipInX" data-wow-delay="0.2s">Ver Catalogo</a>
                 
             </div>
         </div>
